@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beach Clean-Up</title>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #0d0d1a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+    canvas {
+      display: block;
+      max-width: 100%;
+      border: 2px solid #2a2a50;
+    }
+    p {
+      color: #8888aa;
+      font-size: 0.82rem;
+      margin-top: 0.6rem;
+      letter-spacing: 0.03em;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="gameCanvas" width="800" height="600"></canvas>
+  <p>Arrow keys to move &nbsp;·&nbsp; Collect trash &nbsp;·&nbsp; Avoid obstacles</p>
+  <script src="game.js"></script>
+</body>
+</html>

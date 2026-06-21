@@ -3,4 +3,3 @@ __pycache__/
 build/
 .env
 audio/*.wav
-convert_audio.py
