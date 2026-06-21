@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+build/
+.env
+audio/*.wav
+convert_audio.py
